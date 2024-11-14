@@ -93,17 +93,18 @@ a {
     background-color: green;
     display: flex;
     flex: 1;
+    flex-direction: row;
     justify-content: space-between;
     align-items: center;
     padding: 10px;
-    gap: 50px;
+    gap: 10px;
 }
 
 .logo2{
     border: darkseagreen;
     border-radius: 4px;
-    width:70px;
-    height:70px;
+    width:20px;
+    height:20px;
 }
 
 .Quote{
