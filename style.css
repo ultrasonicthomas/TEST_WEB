@@ -59,6 +59,7 @@ a {
     padding: 20px;
     flex-direction: row;
     gap: 10px;
+    align-items: center;
 }
 .DescripcionWeb{
     justify-content: space-between;
@@ -72,11 +73,38 @@ a {
     background-color: white;
     height: 150px;
     display: flex;
-    justify-content: space-evenly;
-    padding: 20px;
-    flex-direction: row;
+    justify-content: center;
+    padding: 10px;
+    flex-direction: column;
     gap: 10px;
+    align-items: center;
 }
+
+
+.InformationText{
+    justify-content: center;
+    padding: 10px;
+    gap: 10px;
+    align-items: center;
+}
+
+.InformationImagen{
+    background-color: green;
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    gap: 50px;
+}
+
+.logo2{
+    border: darkseagreen;
+    border-radius: 4px;
+    width:70px;
+    height:70px;
+}
+
 .Quote{
     background-color: whitesmoke;
     height: 150px;
